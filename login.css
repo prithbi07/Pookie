@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.playwrite-hu-log {
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Playwrite HU", cursive;
+    transition: .1s linear;
+    box-sizing: border-box;
+}
+.log{
+    font-family:"Playwrite HU", cursive;
+}
+body{
+    width: 100%;
+    min-width: 80vh;
+    background-image: url(./src/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    padding:15px 15px;
+}
+h1,h3,p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.header{
+    overflow: hidden;
+    position:center;
+    padding: 20px;
+    border-radius: 0;
+}
+.header a.logo{
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.logo:hover{
+    transform: scale(1.06);
+}
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
+
+button {
+    background-color:#FEA1A1;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.headingsCont p{
+    color: gray;
+}
+.mainCont{
+    padding: 20px;
+    
+}
+
+
+.subCont{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+.subCont a{
+    font-size: 14px;
+    margin-bottom: 12px;
+    color:aliceblue;
+}
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+
